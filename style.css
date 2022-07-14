@@ -78,4 +78,5 @@ a {
 a:hover {
   color: #000;
   background: #fff;
+  text-decoration: none;  
   }  
