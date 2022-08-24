@@ -33,10 +33,30 @@ img {
   text-align: center;
   padding: auto;
 }  
-
+/*
 .social {
   margin-left: 42%;
   margin-top: 1%;
+}
+*/
+div.social {
+   margin: auto;
+   column-gap: 5px;
+   text-align: center;
+   margin-top: 5px;
+   width: 290px;
+   margin-left: auto;
+   margin-right: auto;
+   text-decoration: none;
+}
+
+div.social a{
+  padding: 10px 12px;
+  border-radius: 3px;
+  font-size: 20px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 2px;
 }
 
 .fa {
@@ -44,13 +64,13 @@ img {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  aligh-items: center;
+  align-items: center;
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
-  display: block;
+  /*display: block;*/
 }
 
 .links {
